@@ -23,10 +23,12 @@ Este repositorio incluye:
 
 ## Instrucciones para el uso
 
-1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/snogales-uea/2525-PROGRAMACION-ORIENTADA-A-OBJETOS.git
-   cd 2525-PROGRAMACION-ORIENTADA-A-OBJETOS 
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/snogales-uea/2525-PROGRAMACION-ORIENTADA-A-OBJETOS.git
+cd 2525-PROGRAMACION-ORIENTADA-A-OBJETOS
+ 
 
 2. Crear un nuevo repositorio en tu cuenta de GitHub Ve a GitHub: https://github.com/new
 
@@ -38,4 +40,22 @@ Este repositorio incluye:
 4. Subir el proyecto a tu repositorio personal
    ```bash
    git push -u origin main
+
+## Adaptaciones realizadas (Dashboard.py)
+
+- Se agregó la opción **"Mis tareas y proyectos"** en el menú principal.
+- Se implementó un submenú de tareas con opciones:
+  - Agregar tarea
+  - Ver tareas
+  - Marcar como completada
+  - Eliminar tarea
+- Las tareas se guardan y se cargan desde el archivo `tasks.json` para mantener persistencia.
+- Cada tarea incluye: id, título, proyecto/materia, prioridad, estado y fecha de creación.
+
+## Cómo ejecutar
+
+En Windows (PowerShell o CMD):
+```md
+```bash
+py Dashboard.py
 
